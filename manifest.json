@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Cool Auto Login",
+  "version": "1.0",
+  "description": "Auto login to moodle.univesity.edu",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://moodle.univesity.edu/"],
+      "js": ["content.js"]
+    }
+  ]
+}
